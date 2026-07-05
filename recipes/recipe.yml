@@ -18,8 +18,20 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: script
+    secrets:
+      - type: env
+        name: TEAM_ID
+        mount:
+          type: env
+          name: TEAM_ID
+      - type: env
+        name: GROUP_IDS
+        mount:
+          type: env
+          name: GROUP_IDS
     scripts:
       - install_swifteam.sh
+
 
   - type: dnf
     repos:
