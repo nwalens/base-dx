@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 echo "TEAM_ID: $TEAM_ID"
 echo "GROUP_IDS: $GROUP_IDS"
 

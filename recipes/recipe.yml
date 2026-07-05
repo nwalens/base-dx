@@ -26,7 +26,7 @@ modules:
       copr:
         - atim/starship
       files:
-        - swifteam.repo
+        - swifteam-beta.repo
     install:
       packages:
         - micro
