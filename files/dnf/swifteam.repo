@@ -1,0 +1,7 @@
+[swifteam-beta]
+name=Swifteam Repository
+baseurl=https://swif-linux-package.s3.ap-southeast-1.amazonaws.com/fedora/beta/x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://swif-linux-package.s3.amazonaws.com/RPM-GPG-KEY-swifteam.pub
